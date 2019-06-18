@@ -21,10 +21,31 @@ Route::prefix('Alumno')->group(function () {
     Route::resources([
         '/'=>'AlumnoController',
         'Inicio'=>'InicioController',
+        'HabitosE'=>'HabitosController',
+        'DatosGenerales'=>'DatosGeneralesController',
+        'AntecedentesA'=>'AntecedentesController',
         'DatosFamiliares'=>'DatoFamiliarController',
         'FormacionIntegral'=>'FormacionIntegralController',
         'Psicoanalisis'=>'PsicoanalisisController',
         'Expediente'=>'ExpedienteController',
     ]);
 
+});
+
+
+Route::prefix('CoordinadorG')->group(function () {
+    Route::resources([
+        '/'=>'MenuCoordinadorController',
+        'Formato'=>'FormatoController',
+    ]);
+
+});
+
+Route::prefix('Departamento')->group(function () {
+    Route::resources([
+        '/'=>'MenuDepartamentoController',
+        'Tutor'=>'BuscarTCController',
+        'Alumno'=>'AlumnoDController',
+        'Reporte'=>'ReporteController',
+    ]);
 });

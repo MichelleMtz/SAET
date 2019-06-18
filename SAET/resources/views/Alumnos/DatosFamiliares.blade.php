@@ -139,6 +139,7 @@
                 </select>
             </div>
         </div>
+
         <div class="form-group row">
             <button id="guardar" type="submit" class="btn small btn-outline-primary boton-alumno">Guardar</button>
         </div>

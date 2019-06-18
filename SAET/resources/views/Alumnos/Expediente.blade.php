@@ -6,6 +6,4 @@
     <br>
     <h3 class="text-center alert alert-primary"><b>Expediente</b></h3>
     <br>
-
-
 @endsection
