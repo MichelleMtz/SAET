@@ -1,4 +1,3 @@
-
 @extends ('Alumnos.menu')
 @section('conten')
     <br>

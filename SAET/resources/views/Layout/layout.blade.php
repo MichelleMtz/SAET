@@ -19,12 +19,13 @@
 <header id="header">
 
     <div>
-        <img class="ima2" src="{{asset("imagenes/g1.PNG")}}" align="" width="105em" height="58em">
+        <img class="ima2" src="{{asset("imagenes/g1.PNG")}}" align="" width="104em" height="58em">
         <h3 id="htec"> <b>S        A        E        T</b></h3>
         <h4 id="saet" ><b> (Sistema de Análisis del Expediente del tutorado)</b></h4>
 
     </div>
 </header>
+
 
 <section class="container" id="wrap_content">
     @yield('content')
@@ -60,8 +61,6 @@
         </h6>
 
     </div>
-
-
 </footer>
 <script src="{{asset('js/app.js')}}" ></script>
 <script src="{{asset('components/bootstrap.js')}}" ></script>

@@ -38,7 +38,6 @@ Route::prefix('CoordinadorG')->group(function () {
         '/'=>'MenuCoordinadorController',
         'Formato'=>'FormatoController',
     ]);
-
 });
 
 Route::prefix('Departamento')->group(function () {
@@ -47,5 +46,20 @@ Route::prefix('Departamento')->group(function () {
         'Tutor'=>'BuscarTCController',
         'Alumno'=>'AlumnoDController',
         'Reporte'=>'ReporteController',
+    ]);
+});
+
+Route::prefix('Jefe')->group(function () {
+    Route::resources([
+        '/'=>'MenuJefeController',
+        'Asignar'=>'AsignarTutorController',
+        'AsignaTC'=>'AsignaTCrController',
+    ]);
+});
+
+Route::prefix('Tutor')->group(function () {
+    Route::resources([
+        '/'=>'TutorMenuController',
+        'Tutorados'=>'TutoradosController',
     ]);
 });
