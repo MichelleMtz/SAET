@@ -1,8 +1,4 @@
-.boton-alumno{
-    margin-left: 35em;
-    padding-left: 3em;
-    padding-right: 3em;
-}
+
 #hea{
     margin: 0.5em;
     background: #f8f8f8;
@@ -83,4 +79,52 @@ footer{
 #btnasigna{
     margin-top: 9em;
 }
+#fondito{
+    background-image: url('../imagenes/f1.jpg');
+}
+#B_LOGIN{
+    margin-top: 2em;
+    margin-left: 1250px;
+    background: #235a92;
 
+}
+
+#SAETT{
+    text-align: center;
+    font-family: "Dyuthi";
+    font-size:100px;
+    color: white;
+    font-weight: bold;
+}
+
+#DESC{
+    text-align: center;
+    color: white;
+    font-weight: bolder;
+    font-family: "Dyuthi";
+}
+
+#EDU{
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    font-family: "Antiqua";
+}
+
+#p{
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    font-family: "arial";
+}
+
+#B_CONOCE{
+    margin-left:610px;
+    padding-left: 1em;
+    padding-right: 1em;
+    margin-top: 3em;
+    background: #235a92;
+}
+#divT{
+    margin-top: -0.10em;
+}

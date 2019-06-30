@@ -63,3 +63,15 @@ Route::prefix('Tutor')->group(function () {
         'Tutorados'=>'TutoradosController',
     ]);
 });
+
+
+Route::prefix('Inicio')->group(function () {
+    Route::resources([
+        '/'=>'PrincipalController',
+    ]);
+});
+
+
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');
